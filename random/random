@@ -1,0 +1,1 @@
+awk 'BEGIN{srand();for(i=0;i<10;i++)printf("%c",rand()*100+30);print}'
